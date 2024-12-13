@@ -32,6 +32,7 @@ public abstract class BaseApp {
         // 1.4.1 设置状态后端
         env.setStateBackend(new HashMapStateBackend());
 
+
         // 1.4.2 开启 checkpoint
         env.enableCheckpointing(5000);
         // 1.4.3 设置 checkpoint 模式: 精准一次
